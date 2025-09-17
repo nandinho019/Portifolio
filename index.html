@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mota</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <div class="container">
+                <div class="sobre-mim">
+                    <img src="./assents/WhatsApp Image 2025-09-16 at 10.22.10.jpeg" 
+                         alt="Foto de Fernando Joaquim Mota, programador Full Stack" 
+                         title="Foto de Fernando Joaquim Mota, programador Full Stack" 
+                         class="foto-perfil">
+                    <div class="sobre-informacoes">
+                        <h2>Fernando Joaquim Mota</h2>
+                        <p>Turma de Desenvolvimento de Sistemas - 4º Semestre -
+                            Sou programador Full Stack com experiência em desenvolvimento Desktop, Web, Mobile, Front-End, Back-End e IoT.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Pizzaria TCC</h3>
+                        <p>Projeto de uma pizzaria desenvolvido com o Trabalho de Ajudar as pessoas.</p>
+                        <div style="margin-top:10px; font-size:2em;">
+                            <i class="fab fa-html5" style="color:#e34c26;" title="HTML5"></i>
+                            <i class="fab fa-css3-alt" style="color:#2965f1;" title="CSS3"></i>
+                            <i class="fab fa-js-square" style="color:#f7df1e;" title="JavaScript"></i>
+                            <i class="fas fa-code" style="color:#00599C;" title="C++"></i>
+                            <i class="fas fa-microchip" style="color:#00bcd4;" title="IoT"></i>
+                        </div>
+                        <a href="https://nandinho019.github.io/pizzaria-tcc/" target="_blank" style="display:block; margin-top:15px; color:#e51c23; font-weight:bold;">
+                            Ver Projeto no GitHub Pages
+                        </a>
+                        <!-- Exemplo para Vercel -->
+                        <!-- <a href="https://pizzaria.vercel.app" target="_blank" style="display:block; margin-top:5px; color:#e51c23; font-weight:bold;">
+                            Ver Projeto no Vercel
+                        </a> -->
+                    </div>
+                    <!-- Adicione mais cards de projetos aqui, cada um com seu link de deploy -->
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <div class="container">
+                <h2>Meus Hobbies</h2>
+                <div class="hobbies">
+                    <div class="hobby">
+                        <i class="fas fa-futbol"></i>
+                        <h3>Futsal</h3>
+                        <p>Jogo de pivô</p>
+                    </div>
+                    <div class="hobby">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>Jogar</h3>
+                        <p>Jogos de tiro e futebol</p>
+                    </div>
+                    <div class="hobby">
+                        <i class="fas fa-tv"></i>
+                        <h3>Assistir</h3>
+                        <p>Gosto de assistir séries e filmes!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div style="margin-top:20px;">
+                    <a href="https://instagram.com/nando.019fx" target="_blank" style="color:#e51c23; font-size:1.2em;">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <br>
+                    <a href="https://github.com/nandinho019" target="_blank"
+                        style="color:#fff; font-size:1.2em; margin-top:10px; display:inline-block;">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meu Portfólio</p>
+    </footer>
+</body>
+
+</html>
